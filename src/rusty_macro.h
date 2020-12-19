@@ -23,3 +23,5 @@
 #define type using
 
 #define use using
+
+#define in :
