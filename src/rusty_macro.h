@@ -15,3 +15,11 @@
 
 #define f32 float
 #define f64 double
+
+#define mod namespace
+
+#define self this
+
+#define type using
+
+#define use using
