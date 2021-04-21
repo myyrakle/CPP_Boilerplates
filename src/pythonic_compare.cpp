@@ -94,9 +94,9 @@ using namespace std;
 
 int main()
 {
-    const auto num1 = Integer(10);
-    const auto num2 = Integer(20);
-    const auto num3 = Integer(30);
+    Integer num1 = 10;
+    Integer num2 = 20;
+    Integer num3 = 30;
     
     if(num1 < num2 < num3) { // 10 < 20 < 30
         puts("붐");
