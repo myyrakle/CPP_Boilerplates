@@ -25,3 +25,8 @@
 #define use using
 
 #define in :
+
+#include <vector>
+template<class T>
+using Vec<T> = std::vector<T>;
+
