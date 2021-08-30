@@ -1,13 +1,15 @@
 #include <iostream>
 #include <cmath>
 
+using std::cout;
+
 class Integer {
 private: 
     int value = 0;
 public:
     struct Power{
         int num;
-        Power(int n) num(n) {}
+        Power(int n): num(n) {}
     };
 public:
     using Self = Integer;
